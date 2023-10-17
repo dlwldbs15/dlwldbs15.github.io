@@ -1,0 +1,22 @@
+/* 기본 설정 */
+.page {
+  width: 100%;
+}
+
+.page_menu {
+  position: relative;
+  display: flex;
+  justify-content: left;
+}
+
+.page_menu Button {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+  z-index: 10;
+}
+
+.page_content {
+  display: flex;
+  justify-content: center;
+}
